@@ -1,0 +1,20 @@
+LEARNING RUST
+DAY = 0
+
+fn main() {
+    println!("hello, world");
+}
+#It all starts with a hello world function
+#cargo new project_name creates a new project with a TOML file, src folder, and gitignore.
+    cargo check    #validates if the project can compile
+    cargo build    #generates an executable (default is debug mode)
+    cargo build --release    #hey guess what this does
+    cargo run      #builds the executable and runs it in one go
+    
+Command pattern to clone a git
+    git clone example.org/someproject
+    cd someproject
+    cargo build
+
+use std::io    //Allows use of user input via
+io::stdin().readline(&mut guess) //For user input to modify a variable
